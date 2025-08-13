@@ -201,10 +201,10 @@ public class UIInventory : MonoBehaviour
                         condition.Eat(selectedItem.consumables[i].value);
                         break;
                     case ConsumableType.SpeedUp:
-                        condition.Eat(selectedItem.consumables[i].value);
+                        condition.IncreaseSpeed(selectedItem.consumables[i].value);
                         break;
                     case ConsumableType.JumpUp:
-                        condition.Eat(selectedItem.consumables[i].value);
+                        condition.IncreaseJump(selectedItem.consumables[i].value);
                         break;
                 }
             }

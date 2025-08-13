@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Item_Capsule
   m_EditorClassIdentifier: 
   displayName: "\uCEA1\uC290"
-  description: "\uC18D\uB3C4\uAC00 10 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  description: "\uC18D\uB3C4\uAC00 50 \uC99D\uAC00\uD569\uB2C8\uB2E4."
   type: 1
   icon: {fileID: 21300000, guid: 43046426625693b41b1c2ee199d4c15a, type: 3}
   dropPrefab: {fileID: 5029505305418000050, guid: 0479dded969e08b44b63db0999c50715, type: 3}
@@ -21,4 +21,4 @@ MonoBehaviour:
   maxStackAmount: 10
   consumables:
   - type: 2
-    value: 10
+    value: 50
